@@ -1,1 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing:  1.5px;
+}
 
+body {
+    text-align: center;
+    padding-top: 1em;
+}
+
+input, button {
+    padding: 0.5em;
+    margin: 1em 0em;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    max-width: 800px;
+    margin: auto;
+}
+
+.item {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
